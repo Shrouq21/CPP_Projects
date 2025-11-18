@@ -264,21 +264,22 @@ public:
 
     void run()
     {
-        Payroll.add_payable(new volunteer("ahmed", "Vodafone", 33, 28, 20000));
-        Payroll.add_member(new volunteer("ahmed", "Vodafone", 33, 28, 20000));
+        Payroll.add_payable(new volunteer("Ahmed Hassan", "Vodafone", 33, 28, 20000));
+Payroll.add_member(new volunteer("Ahmed Hassan", "Vodafone", 33, 28, 20000));
 
-        Payroll.add_payable(new hourly_based("yasser", "Etisalat", 40, 19, 100));
-        Payroll.add_member(new hourly_based("yasser", "Etisalat", 40, 19, 100));
+Payroll.add_payable(new hourly_based("Yasser Ali", "Etisalat", 40, 19, 100));
+Payroll.add_member(new hourly_based("Yasser Ali", "Etisalat", 40, 19, 100));
 
-        Payroll.add_payable(new salaried_based("emad", "WE", 20, 18, 5000));
-        Payroll.add_member(new salaried_based("emad", "WE", 20, 18, 5000));
+Payroll.add_payable(new salaried_based("Emad Mostafa", "WE", 29, 40, 5000));
+Payroll.add_member(new salaried_based("Emad Mostafa", "WE", 29, 40, 5000));
 
-        Payroll.add_payable(new commission_salaried("alaa", "Huawei", 43, 19, 2000, 1000, 10));
-        Payroll.add_member(new commission_salaried("alaa", "Huawei", 43, 19, 2000, 1000, 10));
+Payroll.add_payable(new commission_salaried("Alaa Mahmoud", "Huawei", 35, 38, 2000, 1000, 10));
+Payroll.add_member(new commission_salaried("Alaa Mahmoud", "Huawei", 35, 38, 2000, 1000, 10));
 
-        invoice* in1 = new invoice();
-        in1->add_item(new books("Science Fiction", 200, "ss", "Karl", 100));
-        in1->add_item(new food("Classic", 100, "pasta"));
+invoice* in1 = new invoice();
+in1->add_item(new books("Science Fiction", 200, "The Time Machine", "H.G. Wells", 100));
+in1->add_item(new food("Pasta", 100, "Spaghetti Bolognese"));
+Payroll.add_payable(in1);
 
         Payroll.add_payable(in1);
 
