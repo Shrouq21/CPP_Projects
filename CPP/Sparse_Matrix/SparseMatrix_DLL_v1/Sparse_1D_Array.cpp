@@ -59,6 +59,7 @@ cout<<endl;
 }
 
 void Add_Array(const  ArrayLinkedList*list){
+    assert(list->length==length);
 Node*temp=list->head;
 int list_i=0;
 for(Node*list_node=temp;list_node;list_node=list_node->next,++list_i){
