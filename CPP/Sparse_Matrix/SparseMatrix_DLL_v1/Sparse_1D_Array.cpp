@@ -43,6 +43,7 @@ break;
 }
 
 void Get_value(int index){
+    assert(index>=0 and index<length);
 int i=0;
 for(Node*node=head;node;node=node->next,i++)
 {
@@ -97,4 +98,5 @@ array2.set_value(3,7);
 array2.set_value(4,6);
 array.Add_Array(&array2);
 array.Print();
+cout<<"No RTE\n";
 }
