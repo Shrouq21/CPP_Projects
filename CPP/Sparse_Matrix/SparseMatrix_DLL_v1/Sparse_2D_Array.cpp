@@ -42,6 +42,7 @@ public:
     }
 
    int Get_value(int index) {
+    assert(index>=0 and index<length);
         int i = 0;
         for (Node* node = head; node; node = node->next, i++)
         {
