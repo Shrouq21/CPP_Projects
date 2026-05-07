@@ -1,11 +1,11 @@
 # AskFM Console System (C++ Project)
 
-## 📌 Overview
+##  Overview
 This project is a console-based AskFM-style system developed in C++. It simulates a simple social Q&A platform where users can register, log in, ask questions, and answer other users' questions.
 
 ---
 
-## 🚀 Features
+##  Features
 
 - User registration and login system
 - Ask questions to other users
@@ -21,7 +21,7 @@ This project is a console-based AskFM-style system developed in C++. It simulate
 
 ---
 
-## 🧠 Concepts Used
+##  Concepts Used
 
 - Object-Oriented Programming (OOP)
 - File Handling (read/write/append/truncate)
@@ -31,7 +31,7 @@ This project is a console-based AskFM-style system developed in C++. It simulate
 
 ---
 
-## 💾 Data Storage
+##  Data Storage
 
 The system stores data in text files:
 - `users.txt` → stores user information
@@ -41,7 +41,7 @@ Data is loaded at program start and saved automatically during runtime.
 
 ---
 
-## ⚙️ How It Works
+##  How It Works
 
 1. The system loads existing users and questions from files.
 2. Users can either register or log in.
@@ -50,7 +50,7 @@ Data is loaded at program start and saved automatically during runtime.
 
 ---
 
-## 📚 Purpose
+##  Purpose
 
 The goal of this project is to practice advanced C++ concepts, especially:
 - File handling
