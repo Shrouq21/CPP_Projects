@@ -281,8 +281,6 @@ in1->add_item(new books("Science Fiction", 200, "The Time Machine", "H.G. Wells"
 in1->add_item(new food("Pasta", 100, "Spaghetti Bolognese"));
 Payroll.add_payable(in1);
 
-        Payroll.add_payable(in1);
-
         Payroll.pay();
         Payroll.info();
     }
